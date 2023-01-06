@@ -1,0 +1,49 @@
+3.
+Generalized Class:- a class which tells the main features but not the specific details.
+           The class situated at the top of the inheritance hierarchy can be said as Generalclass.
+Specialized Class: A class which is very particular and states the specific details. 
+				The classes situated at the bottom of the inheritance hierarchy can be said as Specific Classes.
+				
+4. a)The class can be prevent inherited by other class by using final keyword.
+
+   b) String , Math 
+		This classes are in java.lang
+	
+	c) Delegation
+		
+5. Comparator and Comparable.
+
+6. LinkedList : LinkedList internally uses a doubly linked list to store the elements.
+				Search is slower in LinkedList as uses doubly Linked List internally 
+				It store the elements as nodes
+				Manipulation of data is Faster
+   ArrayList:  ArrayList internally uses a dynamic array to store the elements.
+				Search is faster in ArrayList as uses array internally which is index based
+				It store the element as array manner
+				Manipulation of data is Slower
+
+				
+7.  Iterator : - Iterator get elements in forword Direction only.
+				 Iterator have only remove and hasNext().
+				 Iterator Cannot modify and replace the elements
+				 
+	ListIterator : ListIterator get elements in both forword and backword direction only
+				: ListIterator have hasnext(),previous(),next(),add()
+				: ListIterator can modify and replace the elements
+8. Covariant Method overriding means that when overriding a method in the child class, the return type may vary.
+   Overriding the Covariant approach provides a way for you to return the subtype of the overridden method’s actual return class.		
+
+9. memory leak is a situation when the garbage collector does not recognize the
+ unused objects and they remain in the memory indefinitely that reduces the
+ amount of memory allocated to the application   
+
+ 10. Dynamic polymorphism is a process or mechanism in which a call to an overridden method is 
+ to resolve at runtime rather than compile-time. It is also known as runtime polymorphism or
+ dynamic method dispatch. We can achieve dynamic polymorphism by using the method overriding.
+ 
+ Static polymorphism is a type of polymorphism that collects the information to call a method during compile time while dynamic
+ polymorphism is a type of polymorphism that collects information to call a method at run time. 
+ Thus, this is the main difference between static and dynamic polymorphism.
+ 
+ 11. By Encapsulation , she can make properties by making Private, and she can set and get data by using Setter and Getter
+
